@@ -57,6 +57,7 @@
 		ECD48E6E1669272900B57B0E /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = ECD48E6C1669272900B57B0E /* background.png */; };
 		ECD48E6F1669272900B57B0E /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECD48E6D1669272900B57B0E /* background@2x.png */; };
 		ECD48E731669286900B57B0E /* Repository.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD48E721669286900B57B0E /* Repository.m */; };
+		ECD48E7A166A212000B57B0E /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD48E79166A212000B57B0E /* ModalViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -117,6 +118,8 @@
 		ECD48E6D1669272900B57B0E /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
 		ECD48E711669286900B57B0E /* Repository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Repository.h; sourceTree = "<group>"; };
 		ECD48E721669286900B57B0E /* Repository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repository.m; sourceTree = "<group>"; };
+		ECD48E78166A211F00B57B0E /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		ECD48E79166A212000B57B0E /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +177,8 @@
 				ECD48E1A16691C1400B57B0E /* ViewController.h */,
 				ECD48E1B16691C1400B57B0E /* ViewController.m */,
 				ECD48E0616691C1400B57B0E /* Supporting Files */,
+				ECD48E78166A211F00B57B0E /* ModalViewController.h */,
+				ECD48E79166A212000B57B0E /* ModalViewController.m */,
 			);
 			path = "Magrack-Demo";
 			sourceTree = "<group>";
@@ -354,6 +359,7 @@
 				ECD48E1C16691C1400B57B0E /* ViewController.m in Sources */,
 				ECD48E25166921E900B57B0E /* MagazineCell.m in Sources */,
 				ECD48E731669286900B57B0E /* Repository.m in Sources */,
+				ECD48E7A166A212000B57B0E /* ModalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +478,7 @@
 				ECD48E2116691C1400B57B0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

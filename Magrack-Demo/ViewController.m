@@ -23,6 +23,8 @@
     [self.collectionView setBackgroundColor:[UIColor clearColor]];
     [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"background"]]];
     
+    self.title = @"Powered By AppDesignvault.com";
+    
     UICollectionViewFlowLayout *flowLayout = (UICollectionViewFlowLayout *)self.collectionView.collectionViewLayout;
     flowLayout.scrollDirection =  UICollectionViewScrollDirectionHorizontal;
     
@@ -103,6 +105,11 @@
 - (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout insetForSectionAtIndex:(NSInteger)section {
     
     return UIEdgeInsetsMake(5, 5, 5, 5);
+}
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+    
+    [self performSegueWithIdentifier:@"detail" sender:self];
 }
 
 @end
