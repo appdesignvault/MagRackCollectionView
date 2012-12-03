@@ -10,7 +10,7 @@ It caused a lot of hair-pulling and cursing at monitors.
 
 UICollectionView brought the zen back :-). 
 
-![Magrack View](https://github.com/appdesignvault/MagRackCollectionView/blob/master/Magrack-Demo/ipad-app-design-magazine-12.png)
+![Magrack View](http://www.appdesignvault.com/wp-content/uploads/2012/12/ipad-app-design-magazine-12.png)
 
 We have been playing around with it here at App Design Vault.
 and decided to implement a Magazine rack for our newest template.
